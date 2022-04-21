@@ -2,14 +2,12 @@
 
 namespace dz;
 
+use pocketmine\player\Player;
 use pocketmine\plugin\PluginBase;
 use pocketmine\utils\Config;
 
 class Loader extends PluginBase
 {
-  /**
-   * onEnable():
-   */
   public function onEnable(): void
   {
     $this->config = new Config($this->getDataFolder()."config.yml", Config::YAML);
@@ -17,9 +15,7 @@ class Loader extends PluginBase
     $this->getServer()->info("plugin CustomJoinMessage has enable");
   }
   /**
-   * 
-   * PlayerJoinEvent()
-   * 
+   * $param PlayerJoinEvent $event
    */
   public function onJoin(\pocketmine\event\player\PlayerJoinEvent $event)
   {
