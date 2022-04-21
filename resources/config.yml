@@ -1,0 +1,3 @@
+# str_replace has {player} -> Player;
+
+join-message: "§e{player} joined the game!"
