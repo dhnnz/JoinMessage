@@ -1,0 +1,5 @@
+name: CustomJoinMessage
+main: dz\Loader
+version: 1.0BETA
+api: 4.0.0
+author: dhanzz
