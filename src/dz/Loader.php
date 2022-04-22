@@ -15,7 +15,7 @@ class Loader extends PluginBase
     $this->getServer()->info("plugin CustomJoinMessage has enable");
   }
   /**
-   * $param PlayerJoinEvent $event
+   * @param PlayerJoinEvent $event
    */
   public function onJoin(\pocketmine\event\player\PlayerJoinEvent $event)
   {
