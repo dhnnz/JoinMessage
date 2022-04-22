@@ -3,6 +3,7 @@
 namespace dz;
 
 use pocketmine\player\Player;
+use pocketmine\Server;
 use pocketmine\plugin\PluginBase;
 use pocketmine\utils\Config;
 
