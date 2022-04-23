@@ -25,8 +25,9 @@ class Loader extends PluginBase
   }
   
   /**
-   * convert to String
-   * data Config
+   * @param String $string
+   * @param Player $p
+   * @return void
    */
   public function convertString(string $string, Player $p)
   {
